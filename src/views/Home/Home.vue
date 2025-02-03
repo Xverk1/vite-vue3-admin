@@ -1,11 +1,11 @@
-<script lang="ts" setup name="App">
+<script lang="ts" setup name="Home">
 // 脚本
 </script>
 
 <template>
   <!-- 结构 -->
-  <div class="app">
-    <RouterView />
+  <div class="home">
+    <h2>Home</h2>
   </div>
 </template>
 
