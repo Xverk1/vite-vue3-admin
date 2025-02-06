@@ -1,14 +1,11 @@
 import { createRouter, createWebHistory } from "vue-router";
-
+import adminRoutes from "./modules/admin.ts";
 const routes = [
   {
     path: "/",
-    redirect: "/home",
+    redirect: "/admin/line",
   },
-  {
-    path: "/home",
-    component: () => import("@/views/Home/Home.vue"),
-  },
+  adminRoutes,
 ];
 
 export default createRouter({

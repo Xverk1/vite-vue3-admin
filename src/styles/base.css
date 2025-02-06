@@ -1,4 +1,10 @@
-html, body{
+:root {
+  --xverk1-theme-color-background: #282b30;
+  --xverk1-theme-color-primary: #C1891F;
+}
+
+html,
+body {
   margin: 0;
   padding: 0;
 }
